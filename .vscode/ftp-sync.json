@@ -1,5 +1,5 @@
 {
-    "remotePath": "/public_html/test/wp-content/themes/bootscore-child-main",
+    "remotePath": "public_html/test/wp-content/themes/bootscore-child-main/",
     "host": "electra.hostflyby.net",
     "username": "ed50b588@lz127.in",
     "password": "Piligrimm123",
@@ -15,7 +15,7 @@
     "allow": [],
     "ignore": [
         "\\.vscode",
-        "\\.git",
+        "\\.git"
     ],
     "generatedFiles": {
         "extensionsToInclude": [

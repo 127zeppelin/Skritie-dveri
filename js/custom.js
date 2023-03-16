@@ -5,10 +5,16 @@ jQuery(function ($) {
 }); // jQuery End
 
     const togButton = document.querySelector('.js-toggleMainNav');
-	const menuTog = document.getElementById('spacenav');
+	  const menuTog = document.getElementById('spacenav');
+    const burgerTop = document.querySelector('.hamburger-icon.top');
+    const burgerMid = document.querySelector('.hamburger-icon.middle');
+    const burgerBot = document.querySelector('.hamburger-icon.bottom');
     const mainMarg = document.querySelector('.site-main');
 	togButton.addEventListener('click', function() {
     menuTog.classList.toggle('open');
+    burgerTop.classList.toggle('active');
+    burgerMid.classList.toggle('active');
+    burgerBot.classList.toggle('active');
 	if(menuTog.classList.contains('open')){
 		mainMarg.classList.add('openactive');
 	}else{

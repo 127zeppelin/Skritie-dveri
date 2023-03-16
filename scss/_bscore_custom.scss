@@ -138,3 +138,41 @@
 	transition: all 0.35s;
 }
 
+.hamburger-icon.top{
+  left: 0px; 
+  display: block; 
+  top: 0px; 
+  transform: matrix(1, 0, 0, 1, 0, 0); 
+  width: 100%;
+  transition: all 0.3s;
+}
+.hamburger-icon.middle{
+  left: 0px; 
+  display: block; 
+  top: 7px; 
+  transform: matrix(1, 0, 0, 1, 0, 0); 
+  width: 100%;
+  transition: all 0.3s;
+}
+.hamburger-icon.bottom{
+  left: 0px; 
+  display: block; 
+  top: 14px; 
+  transform: matrix(1, 0, 0, 1, 0, 0); 
+  width: 100%;
+  transition: all 0.3s;
+}
+.hamburger-icon.top.active{
+  transform: matrix(0.707, -0.707, 0.707, 0.707, 0, 0); 
+  transition: all 0.3s;
+  top: 7px; 
+}
+.hamburger-icon.middle.active{
+  visibility: hidden;
+  transition: all 0.1s;
+}
+.hamburger-icon.bottom.active{
+  transform: matrix(0.707, 0.707, -0.707, 0.707, 0, 0); 
+  transition: all 0.3s;
+  top: 7px; 
+}

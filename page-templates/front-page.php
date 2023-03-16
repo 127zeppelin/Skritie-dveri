@@ -12,9 +12,9 @@ get_header();
 ?>
 <div class="navigation__toggle js-toggleMainNav isTop">
             <div class="burger">
-                <span class="hamburger-icon top" style="left: 0px; display: block; top: 0px; transform: matrix(1, 0, 0, 1, 0, 0); width: 100%;"></span>
-                <span class="hamburger-icon middle" style="left: 0px; display: block; top: 7px; transform: matrix(1, 0, 0, 1, 0, 0); width: 100%;"></span>
-                <span class="hamburger-icon bottom" style="left: 0px; display: block; top: 14px; transform: matrix(1, 0, 0, 1, 0, 0); width: 100%;"></span>
+                <span class="hamburger-icon top"></span>
+                <span class="hamburger-icon middle"></span>
+                <span class="hamburger-icon bottom"></span>
             </div>
         </div>
 <div id="spacenav">
