@@ -1,0 +1,140 @@
+/*!
+ * bootScore custom styles
+ */
+
+// Add your own code here!
+// Because this file is compiled after Bootstrap, you're also able to use Bootstrap mixins for better code.
+// Some examples can be found here: https://bootscore.me/documentation/bootstrap-css-sass
+
+/*-----------------------------------------------------------------------------
+
+  ATTENTION! This is the parent-theme's file. Your work will be lost by the 
+  next update!
+
+  Wouldn't you prefer to use one of our child themes and be update-safe?
+
+  bootscore-child: 
+  https://github.com/bootscore/bootscore-child/archive/refs/heads/main.zip
+
+  bootcommerce-child:
+  https://github.com/bootscore/bootcommerce-child/archive/refs/heads/main.zip
+
+-----------------------------------------------------------------------------*/
+
+
+
+.projects .navigation__toggle .hamburger-icon {
+  background: #333;
+}
+
+.navigation__toggle {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  width: 50px;
+  height: 47px;
+  position: absolute;
+  z-index: 5;
+  left: 1000px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #FFF;
+  padding: 15px;
+}
+.navigation__toggle.isTop {
+  background-color: #000000;
+  color: #FFFFFF;
+  z-index: 10000;
+   left: 0px;
+   margin: 5px 5px;
+   position: fixed;
+}
+.navigation__toggle.isTop .hamburger-icon {
+  background-color: #FFF;
+}
+.navigation__toggle.isTop:hover .hamburger-icon {
+  background-color: #7acbe4 !important;
+}
+.navigation__toggle .burger {
+  position: relative;
+}
+.navigation__toggle:hover {
+  background-color: #1a1c1a;
+}
+.navigation__toggle:hover .hamburger-icon {
+  background: #7acbe4;
+}
+.navigation__toggle.show {
+  background-color: #1a1c1a;
+}
+.navigation__toggle.show .hamburger-icon {
+  background-color: #FFF;
+}
+.navigation__toggle.show:hover {
+  background-color: #1a1c1a;
+}
+.navigation__toggle.show:hover .hamburger-icon {
+  background: #7acbe4;
+}
+.navigation__toggle.isScroll {
+  background: #333;
+  
+}
+.navigation__toggle .hamburger-icon {
+  cursor: pointer;
+  height: 3px;
+  width: 100%;
+  background: #1a1c1a;
+  position: absolute;
+  display: none;
+}
+.navigation__toggle .hamburger-icon.top {
+  top: 0;
+}
+.navigation__toggle .hamburger-icon.middle {
+  top: 7px;
+}
+.navigation__toggle .hamburger-icon.bottom {
+  top: 14px;
+}
+
+#spacenav {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 25vw;
+  height: 100%;
+  background: transparent;
+  transition: all 0.3s ease;
+	.menubg {
+	 position: absolute;
+	}
+	.offcanvas-menu{ 
+	    height: 100%;
+		ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 100%;
+		position: relative;
+			li{
+				list-style:none;
+			}
+	   }
+   }
+}
+#spacenav.open {
+  left: 0;
+}
+
+.fixed-top{
+	background-color: transparent;
+}
+.openactive{
+   transform: translate(15%,0);
+	transition: all 0.3s;
+}
+.site-main{
+	transition: all 0.35s;
+}
+

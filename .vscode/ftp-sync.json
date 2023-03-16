@@ -1,0 +1,26 @@
+{
+    "remotePath": "/public_html/test/wp-content/themes/bootscore-child-main",
+    "host": "electra.hostflyby.net",
+    "username": "ed50b588@lz127.in",
+    "password": "Piligrimm123",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
